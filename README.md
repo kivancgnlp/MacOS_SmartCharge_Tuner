@@ -9,7 +9,7 @@ This application is developed using undocumented APIs. Although I found it is sa
 
 # Versions Tested
 
-Currently I've tested on my MBP2020 with Ventura but I noticed some issues when testing on my old MBA model 2014. So if you have and old HW without optimized charging supported do not to use this app.
+Currently I've tested on my MBP2020 with Ventura but I noticed some issues when testing on my old MBA model 2014. So if you have and old macbook without optimized charging supported do not to use this app.
 
 # Compiling
 After downloading the sources, open a terminal in the download folder and just type make for compilation. 
