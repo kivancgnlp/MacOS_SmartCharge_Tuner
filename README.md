@@ -38,4 +38,23 @@ cc -fobjc-arc    MacOS_SmartCharge_Tuner.m   -o MacOS_SmartCharge_Tuner
 
 ```./MacOS_SmartCharge_Tuner``` this usage will stop battery charging
 
+Expected output :
+```
+ % ./MacOS_SmartCharge_Tuner    
+2023-08-02 18:36:09.148 MacOS_SmartCharge_Tuner[16237:1060895] MacOS SmartCharge Tuner version 1.0
+2023-08-02 18:36:09.232 MacOS_SmartCharge_Tuner[16237:1060895] Stop charging command sent
+2023-08-02 18:36:09.233 MacOS_SmartCharge_Tuner[16237:1060895] End of application
+```
+
 ```./MacOS_SmartCharge_Tuner continue``` this usage will continue battery charging
+
+Expected output :
+
+```
+% ./MacOS_SmartCharge_Tuner continue
+2023-08-02 18:36:15.745 MacOS_SmartCharge_Tuner[16243:1060964] MacOS SmartCharge Tuner version 1.0
+2023-08-02 18:36:15.761 MacOS_SmartCharge_Tuner[16243:1060964] Continue charging command sent
+2023-08-02 18:36:15.761 MacOS_SmartCharge_Tuner[16243:1060964] End of application
+```
+
+
