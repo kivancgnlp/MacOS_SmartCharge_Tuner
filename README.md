@@ -1,6 +1,6 @@
 # MacOS_SmartCharge_Tuner
 
-This application will provide you some control over smart charging features of the macOS. I wrote this application to overcome the slow and hard to debug algorithm of macOS optimized charge feature. Currently stop charging battery and continue charging features are implemented in order to keep battery not at full charge during learning process ( It is for the use case when you are using your MacBook always with charge adapter plugged).
+This application will provide you some control over smart charging features of the macOS. I wrote this application to overcome the slow and hard to debug algorithm of macOS optimized charge feature. Currently stop charging battery and continue charging features are implemented in order to keep battery not at full charge during learning process ( It is for the use case when you are using your MacBook always with the charge adapter plugged).
 
 
 # Disclaimer Alert
