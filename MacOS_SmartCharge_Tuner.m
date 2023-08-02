@@ -27,6 +27,13 @@ int send_stop_charging_command(BOOL stop, BOOL display_status){
         NSDictionary *dict = [sc_client status];
         NSLog(@"Status : %@", [dict description]);
     }
+    
+    if([sc_client isOBCSupported] == false){
+        NSLog(@"Optimized battery charging is not supported on this platform so application will quit now\n");
+        
+        return -2;
+        
+    }
 
     if(stop){
         [sc_client setChargingStatus:NO];  // stop charging
