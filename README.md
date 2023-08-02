@@ -7,6 +7,10 @@ This application will provide you some control over smart charging features of t
 
 This application is developed using undocumented APIs. Although I found it is safer to use than any other third party utilities ( because this one is running in high level library rather than communicating with hardware in low level) I do not take any responsibility caused by usage of this application. Use at your own risk. 
 
+# Versions Tested
+
+Currently I've tested on my MBP2020 with Ventura but I noticed some issues when testing on my old MBA model 2014
+
 # Compiling
 After downloading the sources, open a terminal in the download folder and just type make for compilation. 
 
