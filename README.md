@@ -61,4 +61,9 @@ Expected output :
 2023-08-02 18:36:15.761 MacOS_SmartCharge_Tuner[16243:1060964] End of application
 ```
 
+# My Next Project
+
+If I get enough votes I'm planning to make a project like following :
+
+![GUI SS](sc_gui.png)
 
